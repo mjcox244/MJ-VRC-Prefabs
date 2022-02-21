@@ -6,6 +6,7 @@ try:
 except Exception as e:
     os.system("pip install pynput")
     os.system("pip install pythonosc")
+    quit()
 
 keyboard = Controller()
 
